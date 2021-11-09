@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nick Hughes</title>
+    <link rel="stylesheet" href="./style/styles.css">
+</head>
+<body>
+    <a id="top"></a>
+    <div class="main">
+        <div class="header-container" id="header">
+            <div class="title">
+                <span>Nick Hughes</span>
+            </div>
+            <div class="header-buttons-container">
+                <div class="home-button"><a href="#top">Home</a></div>
+                <div class="contact-button"><a href="#contact">Contact</a></div>
+            </div>
+        </div>
+        <div class="page-items-container">
+            <div class="about-container">
+                <div class="profile-pic-container">
+                    <img src="assets/mee.png" class="profile-pic" alt="Me">
+                </div>
+                <div class="about-sentence">
+                    <span><span class="about-emphasis">Hi</span>, my name is 
+                        Nick and I am a Software Developer from Vancouver.</span>
+                </div>
+                <div class="recent-projects-container">
+                    <span>Recent Projects:</span>
+                    <ul>
+                        <li> <a href="#top">MeetApp</a></li>
+                        <li> <a href="#meetapp">StockTicker Online</a></li>
+                        <li> <a href="#stocktickeronline">StockTicker</a></li>
+                    </ul>
+                </div>
+                <div class="socials-icons-bar">
+                        <a href="https://www.linkedin.com/in/nick-hughes-478668202/" target="_blank">
+                        <img src="assets/linkedin.png" alt="Linked Logo">
+                    </a>
+                    <a href="https://github.com/nickhughes17" target="_blank">
+                        <img src="assets/github.jpg" id="github-logo" alt="Github Logo">
+                    </a>
+                    
+                </div>
+            </div>
+            <div class="posts-container">
+                <div class="post" id="meetapp">
+                    <img src="assets/meetapp.png" alt="">
+                    <div class="project-text">
+                        <div class="project-title">MeetApp: Mobile Live Video Dating App</div>
+                        <div class="project-date-language">January 2021 - Current  |  HTML5, SCSS, React.js, WebRTC</div>
+                        <div class="project-description-container">
+                            <p class="project-description">Built a live video dating app based off of 
+                                real-time conversational matchmaking. I designed the front-end 
+                                infrastructure for a scalable peer-to-peer connection brokering web 
+                                app. I designed and refined the user interface using Figma's 
+                                prototyping software. <span class="dots" id="dots-1">(Read More)</span><span id="more-1">'Socket.io' and 'Peer.js' were used in a 
+                                'Node.js' server, which was integrated into a React.js 
+                                front-end. </span><span class="less" id="less-1">
+                                (Read Less)</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="post" id="stocktickeronline">
+                    <img src="assets/stocktickeronline.png" alt="">
+                    <div class="project-text">
+                        <div class="project-title">StockTicker Online: Online Stock Trading Game</div>
+                        <div class="project-date-language">December 2020   |  Vue.js, HTML5, CSS3</div>
+                        <div class="project-description-container">
+                            <p class="project-description"> Created a web-based multiplayer recreation of the old Canadian board game
+                                StockTicker. Designed and created the front-end of a scalable 3-teir architecture system using Vue.js, HTML5, and CSS3.
+                                Designed and refined the USer Interface <span class="dots" id="dots-3">(Read More)</span><span id="more-3"> 
+                                    using Figma's prototyping software.Created and maintained an agile-based profuct board with Epics, 
+                                    User Stories, To-Do's, ad a Product Backlog for my development team using Trello.
+                                </span><span class="less" id="less-3">
+                                (Read Less)</span></p>
+                                
+                        </div>
+                    </div>
+                </div>
+                <div class="post" id="stockticker">
+                    <img src="assets/stockticker1.0.png" alt="">
+                    <div class="project-text">
+                        <div class="project-title">StockTicker: Desktop Stock Trading Game</div>
+                        <div class="project-date-language">April 2019  |  Java14, JavaFX</div>
+                        <div class="project-description-container">
+                            <p class="project-description">Created a desktop multiplayer re-creation of the old 
+                                Canadian board game StockTicker. Implemented good software practices while creating an object-oriented 
+                                front-end. I learned small team inter-developer commuinication, as well as utilizing Git
+                                for <span class="dots" id="dots-2">(Read More)</span><span id="more-2"> version control. Also implemented
+                                    the JavaFX toolkit to create a fun and interactive
+                                    user interface. </span><span class="less" id="less-2">
+                                (Read Less)</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-container" id="contact">
+            <form method="POST" action="https://formsubmit.co/nickhughes17@hotmail.com">
+                <div class="contact-grid">
+                    <label for="name" id="name-label">Name:</label>
+                    <label for="email" id="email-label">Email:</label>
+                    <label for="_subject" id="subject-label">Subject:</label>
+                    <input type="text" id="name" name="name" >
+                    <input type="text" id="email" name="email" >
+                    <input type="text" id="subject" name="_subject" >
+                    <input type="text" name="_honey" style="display:none">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/#contact">
+                </div>
+                <div class="contact-message">
+                    <label for="message" id="message-label">Message:</label>
+                    <textarea id="message" name="message" placeholder="Write Something..."></textarea>
+                </div>
+                <input type="submit" value="Send" id="submit-button">
+            </form>
+        </div>
+        <div class="footer"></div>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
