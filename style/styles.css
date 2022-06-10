@@ -212,7 +212,17 @@ a{
 #less-3{
     display: none;
 }
-
+#more-4{
+    display: none;
+}
+#less-4{
+    display: none;
+}#more-5{
+    display: none;
+}
+#less-5{
+    display: none;
+}
 .dots{
     text-decoration: underline;
     font-size: 0.9em;
