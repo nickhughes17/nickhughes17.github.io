@@ -20,6 +20,11 @@ a{
     color: #000000;
 }
 
+#figmaLink {
+    text-decoration: underline;
+    
+}
+
 .header-container{
     position: fixed;
     top: 0;
@@ -194,35 +199,6 @@ a{
     margin-bottom: 1em;
 }
 
-#more-1{
-    display: none;
-}
-#less-1{
-    display: none;
-}
-#more-2{
-    display: none;
-}
-#less-2{
-    display: none;
-}
-#more-3{
-    display: none;
-}
-#less-3{
-    display: none;
-}
-#more-4{
-    display: none;
-}
-#less-4{
-    display: none;
-}#more-5{
-    display: none;
-}
-#less-5{
-    display: none;
-}
 .dots{
     text-decoration: underline;
     font-size: 0.9em;
