@@ -27,7 +27,7 @@ openButton5.addEventListener("click", toggleOpen);
 closeButton5.addEventListener("click", toggleClose);
 
 function toggleOpen(event) {
-    console.log(event.target);
+    console.log(event.target.nextSibling);
     event.target.style.display = "none";
     event.target.nextSibling.style.display = "inline";
     event.target.nextSibling.nextSibling.style.display = "inline";
