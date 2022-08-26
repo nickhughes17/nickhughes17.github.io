@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    width: 98vw;
+    margin: auto;
+    height: 10em;
+}
+
+.work {
+    width: 33vw;
+    margin: auto;
+}
+
+.logo {
+    width: 33vw;
+    margin: auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.link-container {
+    width: 33vw;
+    display: flex;
+    margin: auto;
+}
+
+.link-container > div {
+    margin: auto 1em;
+}
+
+.header a {
+    color: black;
+}
+.header a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 700px) {
+    .link-container{
+        flex-direction: column;
+        margin: auto 0 auto auto;
+        width: 25vw;
+    }
+
+    .work {
+        width: 25vw;
+        margin: auto auto auto 0;
+    }
+    
+    .header {
+        height: 5em;
+    }
+
+    .logo {
+        font-size: 1.1rem;
+    }
+    
+    .link-container > div {
+        margin: 0.2em 0;
+    }
+}

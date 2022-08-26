@@ -1,0 +1,19 @@
+.title-container > .title {
+    margin: 4em auto;
+    font-size: 3rem;
+    max-width: 18em;
+}
+
+.works-container {
+    max-width: 98vw;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+@media screen and (max-width: 700px) {
+    .title-container > .title {
+        margin: 4em auto;
+        font-size: 2rem;
+        width: 90vw;
+    }
+}

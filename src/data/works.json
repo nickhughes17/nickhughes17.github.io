@@ -1,0 +1,80 @@
+[
+    {
+        "title": "SG Architecture",
+        "id": "6",
+        "date": "August 2022",
+        "techUsed": "React.js, HTML5, CSS3, MaterialUI, Git",
+        "summary": "Designed and created a portfolio website for a UBC Master of Architecture student to showcase their professional and academic works.",
+        "image": {
+            "url": "sarah.png",
+            "title": ""
+        },
+        "link": "https://sgarland3449.github.io/",
+        "target": "_blank"
+    },
+    {
+        "title": "Purification DB",
+        "id": "5",
+        "date": "May - August 2022",
+        "techUsed": "React.js, HTML5, CSS3, Node.js, MYSQL, Figma, Git, Heroku, MaterialUI",
+        "summary": "Designed and created a website used by UBC biochemistry master’s students and researchers, which facilitates access to experimental protocols stored in a database. Constructed a website to browse a database containing compiled data on experimental protocols. Users can search through the compiled MYSQL database according to several different search parameters and come up with organized results. Website is used to cut down research time by bypassing searching through academic articles.",
+        "image": {
+            "url": "purificationdb.png",
+            "title": ""
+        },
+        "link": "https://purificationdatabase.herokuapp.com/",
+        "target": "_blank"
+    },
+    {
+        "title": "GAOTek Bluetooth Navigation App",
+        "id": "4",
+        "date": "March - June 2022",
+        "techUsed": "Kotlin, Java, XML, Figma",
+        "summary": "Designed the front-end of GAOTek’s Bluetooth navigation app and retroactively implemented it over existing out-of-date front-end. Reported and fixed assigned bugs in the code-base using Bugzilla. Self-facilitated remote work while strictly adhering to scheduled guidelines and milestones. The app is not released, but here is a link to the prototype which I designed and was in the process of implementing when my internship ended.",
+        "image": {
+            "url": "gaotek_transparent.png",
+            "title": ""
+        },
+        "link": "https://www.figma.com/file/FN1oCmEBxZ3szTL5dkxOGw/GAOBPN?node-id=0%3A1",
+        "target": "_blank"
+    },
+    {
+        "title": "Shaker",
+        "id": "3",
+        "date": "June 2021",
+        "techUsed": "React.js, SCSS, HTML5",
+        "summary": "Created a single-page web app for figuring out which cocktails you can make with what's in your liquor cabinet.",
+        "image": {
+            "url": "shaker.png",
+            "title": ""
+        },
+        "link": "",
+        "target": ""
+    },
+    {
+        "title": "StockTicker Online",
+        "id": "2",
+        "date": "December 2020 - March 2021",
+        "techUsed": "Vue.js, HTML5, CSS3, Trello, Figma, Git",
+        "summary": "Worked on a team creating a web-based multiplayer recreation of the old Canadian board game StockTicker. Designed and created the front-end of a scalable 3-teir architecture system using Vue.js, HTML5, and CSS3. Designed and refined the User Interface using Figma's prototyping software. Created and maintained an agile-based profuct board with Epics, User Stories, To-Do's, and a Product Backlog for my development team using Trello.",
+        "image": {
+            "url": "stocktickeronline.png",
+            "title": ""
+        },
+        "link": "",
+        "target": ""
+    },
+    {
+        "title": "StockTicker",
+        "id": "1",
+        "date": "April - July 2019",
+        "techUsed": "Java14, JavaFX, Git",
+        "summary": "Created a desktop local-multiplayer re-creation of the old Canadian board game StockTicker. Implemented good software practices while creating an object-oriented front-end. I learned small team inter-developer commuinication, as well as utilizing Git for version control. Implemented the JavaFX toolkit to create a fun and interactive user interface.",
+        "image": {
+            "url": "stockticker1.0.png",
+            "title": ""
+        },
+        "link": "",
+        "target": ""
+    }
+]

@@ -1,0 +1,15 @@
+.contact > a {
+    color: black;
+    text-decoration: underline;
+}
+
+.contact-container {
+    margin-top: 5em;
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width: 700px) {
+    .contact-container {
+        font-size: 1.5rem;
+    }
+}
