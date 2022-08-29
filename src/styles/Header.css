@@ -29,6 +29,8 @@
 
 .header a {
     color: black;
+    font-weight: bold;   
+    text-decoration: none;
 }
 .header a:hover {
     text-decoration: underline;
