@@ -19,7 +19,7 @@ const Header = () => {
                 ABOUT
             </Link>
             </div>
-            <div className="contact">
+            <div className="contact-link">
             <Link to={'/contact'}>
                 CONTACT
             </Link>
