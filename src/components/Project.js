@@ -13,8 +13,8 @@ const Project = () => {
       opacity: [0, 1],
       translateY: [50, 0],
       easing: 'easeOutExpo',
-      duration: 1500,
-      delay: anime.stagger(100, { start: 2500 }),
+      duration: 2000,
+      delay: anime.stagger(100, { start: 2000 }),
     });
   }, []);
 

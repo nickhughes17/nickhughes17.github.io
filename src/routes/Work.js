@@ -1,30 +1,30 @@
 import { React, useEffect } from 'react';
 import Project from '../components/Project.js';
 import '../styles/Work.css';
-import anime from "animejs/lib/anime.es.js"
+import anime from "animejs/lib/anime.es.js";
 
 
 
 const Work = () => {
-  
-  useEffect(() => {
-    const textWrapper = document.querySelector('.title');
-    if (textWrapper) {
-      textWrapper.innerHTML = textWrapper.textContent.replace(
-        /\S/g,
-        "<span class='letter'>$&</span>"
-      );
 
-      // Your anime.js animation code here
-      anime.timeline().add({
-        targets: '.title .letter',
+    useEffect(() => {
+      const sentence = document.querySelector('.title');
+      const words = sentence.innerText.split(' ');
+  
+      sentence.innerHTML = words
+        .map((word) => `<span class="word">${word}</span>`)
+        .join(' ');
+  
+      const wordSpans = document.querySelectorAll('.word');
+  
+      anime({
+        targets: wordSpans,
         opacity: [0, 1],
-        easing: 'easeInOutQuad',
-        duration: 500,
-        delay: (el, i) => 50 * (i + 1)
+        easing: 'easeOutExpo',
+        duration: 2000,
+        delay: (el, i) => 150 * i, // Delay each word by 200ms
       });
-    }
-  }, []);
+    }, []);
 
   return (
     <div>
@@ -38,4 +38,4 @@ const Work = () => {
   )
 }
 
-export default Work
+export default Work;
