@@ -1,9 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import anime from 'animejs';
 import works from '../data/works.json';
 import '../styles/Project.css';
 
 
 const Project = () => {
+
+  useEffect(() => {
+    const gridItems = document.querySelectorAll('.project');
+    anime({
+      targets: gridItems,
+      opacity: [0, 1],
+      translateY: [50, 0],
+      easing: 'easeOutExpo',
+      duration: 1500,
+      delay: anime.stagger(100, { start: 2500 }),
+    });
+  }, []);
+
   
   return (
     <div className='project-container'>

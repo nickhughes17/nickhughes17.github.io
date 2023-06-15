@@ -52,26 +52,26 @@
         "target": "_blank"
     },
     {
-        "title": "StockTicker Online",
+        "title": "StockTicker",
         "id": "2",
-        "date": "December 2020 - March 2021",
-        "techUsed": "Vue.js, HTML5, CSS3, Trello, Figma, Git",
-        "summary": "Worked on a team creating a web-based multiplayer recreation of the old Canadian board game StockTicker. Designed and created the front-end of a scalable 3-teir architecture system using Vue.js, HTML5, and CSS3. Designed and refined the User Interface using Figma's prototyping software. Created and maintained an agile-based profuct board with Epics, User Stories, To-Do's, and a Product Backlog for my development team using Trello.",
+        "date": "April - July 2019",
+        "techUsed": "Java14, JavaFX, Git",
+        "summary": "Created a desktop local-multiplayer re-creation of the old Canadian board game StockTicker. Implemented good software practices while creating an object-oriented front-end. I learned small team inter-developer commuinication, as well as utilizing Git for version control. Implemented the JavaFX toolkit to create a fun and interactive user interface.",
         "image": {
-            "url": "stocktickeronline.png",
+            "url": "stockticker1.0.png",
             "title": ""
         },
         "link": "",
         "target": ""
     },
     {
-        "title": "StockTicker",
+        "title": "StockTicker Online",
         "id": "1",
-        "date": "April - July 2019",
-        "techUsed": "Java14, JavaFX, Git",
-        "summary": "Created a desktop local-multiplayer re-creation of the old Canadian board game StockTicker. Implemented good software practices while creating an object-oriented front-end. I learned small team inter-developer commuinication, as well as utilizing Git for version control. Implemented the JavaFX toolkit to create a fun and interactive user interface.",
+        "date": "December 2020 - March 2021",
+        "techUsed": "Vue.js, HTML5, CSS3, Trello, Figma, Git",
+        "summary": "Worked on a team creating a web-based multiplayer recreation of the old Canadian board game StockTicker. Designed and created the front-end of a scalable 3-teir architecture system using Vue.js, HTML5, and CSS3. Designed and refined the User Interface using Figma's prototyping software. Created and maintained an agile-based profuct board with Epics, User Stories, To-Do's, and a Product Backlog for my development team using Trello.",
         "image": {
-            "url": "stockticker1.0.png",
+            "url": "stocktickeronline.png",
             "title": ""
         },
         "link": "",

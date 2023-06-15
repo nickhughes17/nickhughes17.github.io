@@ -1,7 +1,7 @@
 .title-container > .title {
     margin: 4em auto;
     font-size: 3rem;
-    max-width: 18em;
+    max-width: 17em;
 }
 
 .works-container {
@@ -17,3 +17,8 @@
         width: 90vw;
     }
 }
+
+.title .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
