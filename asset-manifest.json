@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.060d2d91.css",
-    "main.js": "/static/js/main.8ecbcc92.js",
+    "main.css": "/static/css/main.9e3b96ab.css",
+    "main.js": "/static/js/main.e61d48ce.js",
     "static/js/787.f6e65957.chunk.js": "/static/js/787.f6e65957.chunk.js",
     "static/media/me.jpeg": "/static/media/me.c701b3738c663f065957.jpeg",
     "static/media/stockticker1.0.png": "/static/media/stockticker1.0.7094392f3bf90f2bc534.png",
@@ -12,16 +12,16 @@
     "static/media/github.jpg": "/static/media/github.ab6987430fdb8a83acca.jpg",
     "static/media/gaotek_transparent.png": "/static/media/gaotek_transparent.b0c391deb4bf6956609a.png",
     "static/media/sarah.png": "/static/media/sarah.25c574049ff2c90f2cd0.png",
-    "static/media/showoff.png": "/static/media/showoff.cf37568a6ca1d69de8c5.png",
+    "static/media/showoff.png": "/static/media/showoff.50d215012ea9f6b21993.png",
     "static/media/purificationdb.png": "/static/media/purificationdb.e08c431e91fb3a672a59.png",
     "static/media/purificationdb2.png": "/static/media/purificationdb2.84ec1d6df62385e9d6e6.png",
     "index.html": "/index.html",
-    "main.060d2d91.css.map": "/static/css/main.060d2d91.css.map",
-    "main.8ecbcc92.js.map": "/static/js/main.8ecbcc92.js.map",
+    "main.9e3b96ab.css.map": "/static/css/main.9e3b96ab.css.map",
+    "main.e61d48ce.js.map": "/static/js/main.e61d48ce.js.map",
     "787.f6e65957.chunk.js.map": "/static/js/787.f6e65957.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.060d2d91.css",
-    "static/js/main.8ecbcc92.js"
+    "static/css/main.9e3b96ab.css",
+    "static/js/main.e61d48ce.js"
   ]
 }
